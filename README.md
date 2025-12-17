@@ -25,3 +25,14 @@ A Telegram bot that downloads Instagram Reels, writes AI captions, and posts the
 * **Meta API** (Instagram Posting)
 * **Telegram API**
 * **Python** (Flask)
+---
+
+### ⚖️ Legal & Ethical Use
+> **Important:** This project is built for ethical automation and respects platform rules.
+
+* **Official Integration:** Uses the **Official Meta Graph API** for all Instagram uploads.
+* **Respecting Creators:** The bot is hard-coded to tag the original owner and provide clear credit in the caption.
+* **No Rule Violations:** This tool follows Meta's developer policies by using authorized API endpoints rather than "hacking" or "unofficial" scrapers for posting.
+* **Transparency:** This project is for educational and personal workflow automation purposes.
+
+---
