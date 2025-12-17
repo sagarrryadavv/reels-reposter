@@ -10,7 +10,8 @@ This version of the bot uses the **Polling** method. It constantly "polls" (asks
 Open `bot.py` and enter your API keys for Telegram, Groq, Apify, and Meta.
 
 3. **Launch:**
-
+   ```bash
+   python bot.py
 ---
 
 ### ⚠️ Note
