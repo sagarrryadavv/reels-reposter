@@ -11,7 +11,7 @@ This version is for **24/7 hosting** on PythonAnywhere. It uses Webhooks so the 
 Run this command in your PythonAnywhere Bash Console:
 
 ```bash
-pip install flask requests groq apify-client python-telegram-bot
+pip3.10 install --user flask requests python-dotenv groq apify-client
 ```
 
 #### 2. Create PythonAnywhere Web App
@@ -27,14 +27,18 @@ This sets up the Flask environment required for webhooks.
 
 #### 3. Update Credentials
 
-Open `flask_app.py` and replace the placeholders with your actual API keys for:
+Open `flask_app.py` and replace the code inside it
+
+### 4. Replace API keys
+
+upload `.env` in the same folder as `flask_app.py` with your actual API keys for:
 
 * Telegram
 * Groq
 * Apify
 * Meta (Instagram)
 
-#### 4. Setup Webhook
+#### 5. Setup Webhook
 
 Paste this URL into your browser to link Telegram to your server:
 
@@ -42,7 +46,7 @@ Paste this URL into your browser to link Telegram to your server:
 https://api.telegram.org/bot<TOKEN>/setWebhook?url=https://<USERNAME>.pythonanywhere.com/<TOKEN>
 ```
 
-#### 5. Reload Web App
+#### 6. Reload Web App
 
 Go to the **Web** tab on PythonAnywhere and click the green **Reload** button. This "wakes up" the bot with your new code.
 
