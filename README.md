@@ -36,5 +36,5 @@ A Telegram bot that downloads Instagram Reels, writes AI captions, and posts the
 * **Transparency:** This project is for educational and personal workflow automation purposes.
 
 ---
-<img width="886" height="1021" alt="reposter" src="https://github.com/user-attachments/assets/b7700129-c2cc-452d-96c3-f960f393b78a" />
+<img width="443" height="510.5" alt="reposter" src="https://github.com/user-attachments/assets/b7700129-c2cc-452d-96c3-f960f393b78a" />
 
